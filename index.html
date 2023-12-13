@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>
+            Calculetor page
+        </title>
+        <link rel="icon" type="image/x-icon" href="photo/myphoto.png">
+        <link rel="stylesheet" href="css/style.css">
+        
+    
+    </head>
+    <body>
+        
+            <div class="content">
+                <div class="left_content">
+                    Welcome <br>
+                    to <br>
+                    My First Project <br>
+                    <p>Project Name:Normal Calculator</p>
+
+                </div>
+                <div class="right_content">
+
+                    
+        <div class=" calcu">
+            <input type="text"  id="txtInput" value="" />
+            <table class="cal_content">
+                <tr>
+                    <td colspan="3"> <button id="bt", onclick="clearData()"">AC</button></td>
+                   
+                    <td> <button class="btn",  onclick="storeData('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td> <button class="btn", onclick="storeData('7' )">7</button></td>
+                    <td> <button class="btn", onclick="storeData('8' )">8</button></td>
+                    <td> <button class="btn", onclick="storeData('9')">9</button></td>
+                    <td> <button class="btn", onclick="storeData('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td> <button class="btn", onclick="storeData('4')">4</button></td>
+                    <td> <button class="btn", onclick="storeData('5')">5</button></td>
+                    <td> <button class="btn", onclick="storeData('6')">6</button></td>
+                    <td> <button class="btn", onclick="storeData('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td> <button class="btn", onclick="storeData('1')"">1</button></td>
+                    <td> <button class="btn", onclick="storeData('2')">2</button></td>
+                    <td> <button class="btn", onclick="storeData('3')">3</button></td>
+                    <td> <button class="btn", onclick="storeData('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td> <button class="btn", onclick="storeData('0')">0</button></td>
+                    <td> <button class="btn", onclick="storeData('00')">00</button></td>
+                    <td> <button class="btn", onclick="storeData('.')">.</button></td>
+                    <td> <button class="btn", onclick="calData()">=</button></td>
+                </tr>
+
+            </table>
+        </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <script src="css/index.js"></script>
+
+
+
+    </body>
+</html>
