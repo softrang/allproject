@@ -41,3 +41,11 @@ function clearData(){
     var txtInput= document.getElementById('txtInput').value= '';
 }
 
+function delData(){
+
+    var txtInput= document.getElementById('txtInput');
+    var oldvalue=txtInput.value;
+    var backvalue= oldvalue.slice(0,-1)
+    txtInput.value = backvalue
+}
+
